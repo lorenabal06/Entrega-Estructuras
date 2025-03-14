@@ -1,5 +1,9 @@
 package es.uah.matcomp.ed.e1.ejerciciosclases;
 
+
+import es.uah.matcomp.ed.e1.ejerciciosclases.Diccionario.DiccionarioOrdenado;
+import es.uah.matcomp.ed.e1.ejerciciosclases.Diccionario.ElementoDiccionario;
+import es.uah.matcomp.ed.e1.ejerciciosclases.Diccionario.Iterador;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,7 +18,9 @@ public class TestDiccionario {
         diccionario.delete("a");
 
         Iterador<ElementoDiccionario<String, Integer>> iterador = diccionario.getIterador();
+
         assertTrue(iterador.hasNext());
-        assertEquals("a", iterador.next().getClave());
+        assertEquals("b", iterador.next().getClave());  // Se espera "b" en lugar de "a"
     }
 }
+

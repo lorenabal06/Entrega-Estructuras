@@ -58,7 +58,7 @@ public class ListaSimplementeEnlazada<T> implements Lista<T> {
         return new IteradorListaSimplementeEnlazada<>(cabeza);
     }
 
-    // Métodos auxiliares para es.uah.matcomp.ed.e1.ejerciciosclases.Pila y es.uah.matcomp.ed.e1.ejerciciosclases.Cola
+    // Métodos auxiliares para Pila y Cola
     public Elemento<T> getCabeza() {
         return cabeza;
     }

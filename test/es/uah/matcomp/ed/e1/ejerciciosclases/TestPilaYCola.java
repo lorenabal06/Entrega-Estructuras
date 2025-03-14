@@ -1,5 +1,7 @@
 package es.uah.matcomp.ed.e1.ejerciciosclases;
 
+import es.uah.matcomp.ed.e1.ejerciciosclases.PilaYCola.Cola;
+import es.uah.matcomp.ed.e1.ejerciciosclases.PilaYCola.Pila;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
